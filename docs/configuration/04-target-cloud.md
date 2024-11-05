@@ -39,13 +39,13 @@ additional password authenticators. For example, to add an authenticator for the
 ```yaml  title="environments/my-site/inventory/group_vars/all/variables.yml"
 azimuth_authenticators_extra:
   - hidden: false
-      label: "What shows up on login dropdown menu"
-      name: a_unique_name
-      type: openstack-password
-      openstackPassword:
-        authUrl: https://keystone.openstack.example.com/v3
-        domain: my-domain
-        verifySsl: true
+    label: "What shows up on login dropdown menu"
+    name: a_unique_name
+    type: openstack-password
+    openstackPassword:
+      authUrl: https://keystone.openstack.example.com/v3
+      domain: my-domain
+      verifySsl: true
 ```
 
 Note that at the moment there isn't a check implemented to make sure that all necessary fields have been provided.
