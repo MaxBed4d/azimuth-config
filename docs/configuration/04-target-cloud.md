@@ -54,8 +54,8 @@ Therefore if adding any extra authenticators you should include all fields liste
 Due to the nature of ```azimuth_authenticators_extra``` it is possible to add any type of compatible authenticator,
 just provide the necessary fields for the authenticator type you are adding.
 
-To apply the changes, run ```ansible-playbook azimuth_cloud.azimuth_ops.provision``` from
-your Azimuth config directory.
+To apply the changes, follow the same [deployment steps](https://azimuth-config.readthedocs.io/en/stable/deployment/#activating-an-environment) 
+initially used.
 
 ## Cloud name
 
