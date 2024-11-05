@@ -43,7 +43,7 @@ azimuth_authenticators_extra:
       name: a_unique_name
       type: openstack-password
       openstackPassword:
-        authUrl: https://keystone.openstack.{domain}/v3
+        authUrl: https://keystone.openstack.example.com/v3
         domain: my-domain
         verifySsl: true
 ```
